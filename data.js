@@ -5,7 +5,8 @@ module.exports = [
         date: "1979",
         title: "Joy Division",
         subtitle:"Unknown Pleasures",
-        description:"asbaba"
+        description:"asbaba",
+        featured: true 
     },
     {
         id:"K6LA7v1PApU",
@@ -21,7 +22,8 @@ module.exports = [
         date: "1994",
         title: "Megadeth",
         subtitle:"Youthanasia",
-        description:"asbaba"
+        description:"asbaba",
+        featured: true
     },
     {
         id:"84WZrgMpgbw",
@@ -37,7 +39,8 @@ module.exports = [
         date: "1994",
         title: "Alice in Chains",
         subtitle:"Jar of Flies",
-        description:"asbaba"
+        description:"asbaba",
+        featured: true
     },
     {
         id:"XyzJtBoIw9s",

@@ -16,8 +16,11 @@ rel="stylesheet">
         {% for item in items %}
             <div class="card" id="{{item.id}}">
 
-                <div class="cardImageContainer">
+                <div class="cardImageContainer {{ 'featuredWrapper' if item.featured }}">
                     <img src="{{item.image}}" alt="cardOne">
+                    {% if item.featured %}
+                        <div class="featured">Featured</div>
+                    {% endif %} 
                 </div>
 
                 <div class="cardDate">
